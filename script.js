@@ -1,9 +1,7 @@
-
+var integer = prompt("Please enter a whole number.", "0");
+integer = parseInt(integer);
 
 function fizzBuzzRedux(integer) {
-
-	var integer = prompt("Please enter a whole number.", "0");
-	integer = parseInt(integer);
 
 	function check(n) {
 		var msg = '';
